@@ -23,4 +23,4 @@ jobs:
           ALGOSEC_CLIENT_SECRET: ${{ secrets.ALGOSEC_CLIENT_SECRET }}
           WORKING_DIR: .
           DOCKERFILE_NAME: Dockerfile
-          MIN_LEVEL_TO_BLOCK_PR: 0
+          MIN_LEVEL_TO_BLOCK_PR: -1
